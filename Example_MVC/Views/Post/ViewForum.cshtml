@@ -1,0 +1,15 @@
+﻿@using Example_MVC.Models
+@model Forum
+
+
+<div>
+    @Html.DisplayFor(m => m.Posts)
+    <br />
+    <br />
+    @using (Html.BeginForm("New", "Post"))
+    { 
+        @Html.TextBox("Author", "Enter your name here");
+        @Html.TextBox("Message", "Enter your message here");
+        <input type="submit" value="Submit Post"/>
+    }
+</div>
