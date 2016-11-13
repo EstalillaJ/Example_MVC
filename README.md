@@ -12,3 +12,4 @@ Files of interest include:
 * Web.Config
 * Models\Forum.cs
 * Models\Post.cs
+* App_Start\RouteConfig.cs
